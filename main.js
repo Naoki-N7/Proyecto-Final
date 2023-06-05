@@ -6,9 +6,6 @@ document.querySelector('#icono')
     });
 });
 
-
-
-
 var icono = document.querySelector("#icono");
 
 window.onscroll = function() {

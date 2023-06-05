@@ -33,7 +33,7 @@
             </label>
             <section class="Nav-Container">
                 
-                <div><a href="#"><img src="./images/logo_hamburger.png" class="logo" alt="LOGO"></a></div>
+                <div class="logobox"><a href="#"><img src="./images/logo_hamburger.png" class="logo" alt="LOGO"></a></div>
                 <div>
                     <nav class="Barra-Nav">
                         <a href="#">Home</a>
@@ -123,7 +123,7 @@
         </section>
 
         <div class="botón-compra">
-            <button id="botón"><a href="#mailgo" data-address="OniBurger2023" data-domain="gmail.com" class="enlace_correo">PEDIDOS AQUÍ!</a></button>
+            <button id="botón" onclick="document.getElementById('m').play()"><a href="#mailgo" data-address="OniBurger2023" data-domain="gmail.com" class="enlace_correo">PEDIDOS AQUÍ!</a></button>
         </div>
         
         <footer>
@@ -138,7 +138,7 @@
         <video class="overlay" muted autoplay loop>
             <source src="pexels-adesh-seethala-6698193-1920x1080-25fps.mp4">
         </video>
-    
+        <audio id="m" src="PC-Mouse03-06(R).mp3" ></audio>
     </div>
     <script src="main.js"></script>
     <script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js"></script>
