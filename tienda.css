@@ -367,6 +367,7 @@ hr {
 .producto:focus {
     transform: scale(1.1);
     transition: 1s;
+    
 }
 
 .Detalles{
@@ -532,6 +533,13 @@ footer p:last-child{
         margin: 0;
         transform: scale(0.7);
     }
+
+    .producto:hover ,
+    .producto:focus {
+    transform: scale(0.9);
+    transition: 1s;
+    
+}
 
     .producto:first-child{
         margin-left: 15px;
