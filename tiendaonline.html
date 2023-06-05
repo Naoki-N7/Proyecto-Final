@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;900&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Oniburger</title>
+    <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+    <div class="loader-container">
+        <span>Hola! Pronto podrás ingresar a la página...</span>
+        <div class="loader"></div>
+
+        <div class="efectos_adicionales">
+            <div class="efecto_adicional"></div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <img src="./images/Flecha_arriba.png"  id="icono" alt="botón-arriba">
+        <header>
+            <input type="checkbox" name="" id="check">
+            <label for="check">
+                <i class='bx bx-menu' id="botonhamburguesa"></i>
+                <i class='bx bx-x' id="cerrar"></i>
+            </label>
+            <section class="Nav-Container">
+                
+                <div><a href="#"><img src="./images/logo_hamburger.png" class="logo" alt="LOGO"></a></div>
+                <div>
+                    <nav class="Barra-Nav">
+                        <a href="">Home</a>
+                        <a href="">Servicios</a>
+                        <a href="">Contacto</a>
+                    </nav>
+                </div>
+                
+                
+            </section>
+            <div class="barralateral">
+                    <a href=""><i class='bx bxs-home'></i>Home</a>
+                    <a href=""><i class='bx bx-bulb'></i>Servicios</a>
+                    <a href=""><i class='bx bx-message-rounded-dots' ></i>Contacto</a>
+                </div>
+        </header>
+        
+        <div id="main-contenedor">
+            <div class="capa">
+                <h1>SOMOS ONIBURGER</h1>
+                <p>Te esperamos!!</p>
+            </div>
+            <div class="left">
+                <h1>SOMOS ONIBURGER</h1>
+                <p>Aquí preparamos las mejores hamburguesas!!</p>
+            </div>
+            <div class="right">
+                <img src="./images/main-hamburguesa(1).png" alt="Hamburguesa Main">
+            </div>
+        </div>
+
+        <hr width="90%" size="2px" color="white" />
+
+        <section class="galeria-productos">
+            
+                <div class="producto">
+                    <img src="./images/Hamburguesa_Crocante.jpg" alt="Hamburguesa Crocante">
+                    <div class="Detalles">
+                        <h3>Carne Crocante</h3>
+                        <p class="precio">$8</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="producto">
+                    <img src="./images/Hamburguesa_doble_carne.jpg" alt="Hamburguesa de doble carne">
+                    <div class="Detalles">
+                        <h3>Doble Carne</h3>
+                        <p class="precio">$11</p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="./images/Hamburguesa_Full_cheese.jpg" alt="Hamburguesa llena de queso">
+                    <div class="Detalles">
+                        <h3>Full Cheese</h3>
+                        <p class="precio">$7</p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="./images/Hamburguesa_con_bastante_carne.jpg" alt="Hamburguesa con mucha carne">
+                    <div class="Detalles">
+                        <h3>A lo Pobre</h3>
+                        <p class="precio">$10</p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="./images/hamburguesa_con_bastante_ensalada.jpg" alt="Hamburguesa Vegetariana">
+                    <div class="Detalles">
+                        <h3>Con Bastante Ensalada</h3>
+                        <p class="precio">$6</p>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="./images/Hamburguesa_con_arocebolla.jpg" alt="Hamburguesa con aros de cebolla">
+                    <div class="Detalles">
+                        <h3>Con Aro de Cebolla</h3>
+                        <p class="precio">$6</p>
+                    </div>
+                </div>
+                
+            
+            
+        </section>
+
+        <div class="botón-compra">
+            <button id="botón"><a href="#mailgo" data-address="OniBurger2023" data-domain="gmail.com" class="enlace_correo">PEDIDOS AQUÍ!</a></button>
+        </div>
+        
+        <footer>
+            <p>&copy;2023 - Oniburger</p> 
+            <p>Todos los derechos reservados</p> 
+            <div class="redes">
+                <a href="#"><img src="./images/ig.svg" alt="logo_instagram"></a>
+                <a href="#"><img src="./images/twitter.svg" alt="logo_twitter"></a>
+            </div>
+        </footer>
+        
+        <video class="overlay" muted autoplay loop>
+            <source src="pexels-adesh-seethala-6698193-1920x1080-25fps.mp4">
+        </video>
+    
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/mailgo@0.12.2/dist/mailgo.min.js"></script>
+</body>
+</html>
