@@ -435,8 +435,12 @@ footer p:last-child{
 }
 
 .redes img{
-    width: 30px;
-    
+    width: 40px;
+    margin-top: 20px;
+}
+
+.fecha_hoy{
+    margin-top: 20px;
 }
 
 
